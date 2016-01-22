@@ -1,0 +1,26 @@
+  <ion-view>
+    <ion-header-bar>
+      <h1 class="title">Detail</h1>
+      <div class="buttons">
+        <button class="button button-clear" ng-click="closeDetail()">Close</button>
+      </div>
+    </ion-header-bar>
+    <ion-content>
+      <form>
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">First Name</span>
+        <span class="input-label">{{detail.firstName}}</span>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Last Name</span>
+        <span class="input-label">{{detail.lastName}}</span>
+        </label>
+        <label class="item item-input">
+        <span class="input-label">Email</span>
+      <span class="label">{{detail.email}}</span>
+    </label>
+      </div>
+</form>
+    </ion-content>
+  </ion-view>
